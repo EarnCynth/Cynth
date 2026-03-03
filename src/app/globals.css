@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 2%;
+    --foreground: 120 10% 91%;
+    --card: 0 0% 2%;
+    --card-foreground: 120 10% 91%;
+    --popover: 0 0% 2%;
+    --popover-foreground: 120 10% 91%;
+    --primary: 90 100% 50%;
+    --primary-foreground: 0 0% 2%;
+    --secondary: 80 100% 60%;
+    --secondary-foreground: 0 0% 2%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 120 5% 65%;
+    --accent: 80 100% 60%;
+    --accent-foreground: 0 0% 2%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 120 10% 91%;
+    --border: 90 100% 50%;
+    --input: 90 100% 50%;
+    --ring: 90 100% 50%;
+    --radius: 0.5rem;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Inter', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border/20;
+  }
+  body {
+    @apply bg-deep-space text-foreground antialiased;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .text-glow-green {
+    text-shadow: 0 0 10px rgba(127, 255, 0, 0.7), 0 0 20px rgba(127, 255, 0, 0.5), 0 0 30px rgba(127, 255, 0, 0.3);
+    color: #7fff00;
+  }
+
+  .text-glow-lime {
+    text-shadow: 0 0 10px rgba(173, 255, 47, 0.7), 0 0 20px rgba(173, 255, 47, 0.5), 0 0 30px rgba(173, 255, 47, 0.3);
+    color: #adff2f;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(127, 255, 0, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(127, 255, 0, 0.5);
+}
+
+/* Selection */
+::selection {
+  background: rgba(127, 255, 0, 0.7);
+  color: #050505;
+}
