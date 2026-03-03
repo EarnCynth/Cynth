@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Cynth
 
-## Getting Started
+Cynth is a clean execution layer for on-chain actions.
 
-First, run the development server:
+No dashboards.
+No clutter.
+No abstraction theatre.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Just input → execution.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+What Is Cynth?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Cynth is built around a simple idea:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+When you press enter, something should happen.
 
-## Learn More
+No animations.
+No unnecessary UI.
+No mystery states.
 
-To learn more about Next.js, take a look at the following resources:
+Just deterministic execution.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Why Cynth Exists
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Most crypto tools overcomplicate the moment of action.
 
-## Deploy on Vercel
+Too many popups
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Too many steps
+
+Too much friction
+
+Too much noise
+
+Cynth strips that away.
+
+Execution should feel:
+
+Immediate
+
+Transparent
+
+Mechanical
+
+Certain
+
+Core Principles
+
+1. Execution First
+Everything revolves around successful execution.
+
+2. Minimal Surface Area
+The UI stays quiet so the action stays loud.
+
+3. Determinism Over Decoration
+If it runs, it runs. If it fails, it fails clearly.
+
+4. Crypto Native
+Built with on-chain logic in mind, not retrofitted onto it.
+
+Stack
+
+Next.js
+
+TypeScript
+
+TailwindCSS
+
+Bun
+
+Local Development
+bun install
+bun run dev
+
+Then open:
+
+http://localhost:3000
+Deployment
+
+Configured for Netlify via netlify.toml.
+
+Philosophy
+
+Cynth isn’t a dashboard.
+
+It’s a terminal-like interaction surface for crypto-native execution.
+
+Less interface.
+More intent.
+
+License
+
+MIT
+
+If you want something:
+
+More mysterious
+
+More institutional
+
+More technical
+
+More crypto-heavy
+
+More narrative-driven
+
+Tell me the direction and I’ll tune it exactly to your brand tone.ext-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
